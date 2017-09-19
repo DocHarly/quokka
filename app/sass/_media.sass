@@ -1,0 +1,126 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.header-contacts
+		font-size: 12px
+	.welcome
+		p
+			span
+				font-size: 18px
+	.carousel-work-item
+		flex-direction: column
+
+	.s
+		&-review, &-partners
+			padding: 8% 0
+		&-call
+			background-size: cover
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.welcome
+		.h1
+			font-size: 50px
+		p
+			span
+				font-size: 12px
+		strong
+			font-size: 14px
+	
+	.s-call
+		&::before
+			width: 100%
+		.callback
+			padding: 12% 0
+
+	.footer-addr
+		margin-bottom: 15px
+		.footer-phone
+			font-size: 24px
+			padding-top: 0
+			.fa
+				top: 9px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.header-contacts 
+		.phone-h
+			text-align: left
+
+	.quotes
+		display: none
+
+	.partners
+		.owl-nav
+			> div
+				&.owl-prev
+					left: 0
+				&.owl-next
+					right: 0
+
+	.s-partners
+		.h2
+			margin: 0
+
+	.social-footer
+		margin-top: 0
+		.soc li a
+			margin-top: 0
+
+	.footer-menu
+		padding-left: 20px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.welcome
+		.h1
+			font-size: 34px
+			margin-top: 5px
+		p
+			span
+				font-size: 10px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	.welcome
+		.h1
+			font-size: 20px
+			margin-top: 8px
+		p
+			span
+				font-size: 7px
+
+	.header-composition 
+		p
+			font-size: 10px
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
