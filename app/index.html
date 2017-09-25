@@ -5,7 +5,7 @@
 
 	<meta charset="utf-8">
 
-	<title>Quokka1</title>
+	<title>Quokka</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,11 +52,12 @@
 							
 							<ul>
 								<li class="active"><a href="index.html">Главная</a></li>
-								<li><a href="#">Цены</a></li>
-								<li><a href="#">Клиенты</a></li>
-								<li><a href="about.html">Команда</a></li>
-								<li><a href="#">Новости</a></li>
-								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Решения для сайтов</a></li>
+								<li><a href="#">Сайты</a></li>
+								<li><a href="#">Команда</a></li>
+								<li><a href="project.html">Портфолио</a></li>
+								<li><a href="#">Quokka.news</a></li>
+								
 							</ul>
 
 						</nav>
@@ -80,7 +81,8 @@
 
 											<p>Мы молодая веб студия и уже успели реализовать более 20 проектов!</p>
 
-											<a href="about.html" class="button">О нас</a>
+											<a href="#" class="button">Попробовать</a>
+											<a href="#op" class="button">найти подходящее решение</a>
 
 										</div>
 
@@ -121,7 +123,7 @@
 
       </div>
 
-      <div id="my-content">
+     <!-- <div id="my-content">
 
       	<section class="s-work">
 
@@ -219,50 +221,31 @@
 
       		</div>
 
-      	</section>
+      	</section>-->
 
-      	<section class="s-call inverse" style="background-image: url(img/call.jpeg);">
-      		
-			<div class="container">
-				<div class="row">
-					
-					<div class="col-md-5 col-md-offset-7 col-sm-6 col-sm-offset-6">
-						
-						<form class="callback">
-							
-							<div class="success"><span>Спасибо за заявку!</span></div>
+      <section class="change" id="op"><!-- секция выбора -->
+	      
+	      		
+	      			<div class="col-sm-6">
+	      				<div class="bk">
+	      					<h1>Есть сайт?</h1>
+	      					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium quas, fugit nesciunt ratione totam eveniet saepe tempora vel velit iusto earum. Placeat distinctio assumenda est, enim ut nemo pariatur.</p>
+	      					<a href="#" class="button2">Подробнее</a>
+	      					<img src="img/change/have_site.jpg" alt="">
+	      				</div>
 
-							<!-- Hidden Required Fields -->
-							<input type="hidden" name="project_name" value="Quokka">
-							<input type="hidden" name="admin_email" value="info@quokka.pro">
-							<input type="hidden" name="form_subject" value="Заявка с сайта Quokka">
-							<!-- END Hidden Required Fields -->
-
-							<div class="callback-logo"><img src="img/logo.svg" alt="Quokka - студия веб разработки"></div>
-							<div class="formhead h2">Оставить заявку</div>
-							<p>Оставьте заявку и мы перезвоним вам в течении 15 минут.</p>
-
-							<input type="text" name="Имя" placeholder="Ваше имя..." required>
-							<input type="text" name="Телефон" placeholder="Ваш телефон..." required>
-							<select name="Услуга">
-								<option value disabled selected>Выбрать услугу...</option>
-								<option>Аудит сайта</option>
-								<option>Разработка логотипа</option>
-								<option>Разработка дизайна</option>
-								<option>Разработка сайта</option>
-								<option>Редизайн сайта</option>
-								<option>Реклама: SMM, SEO</option>
-							</select>
-							<button class="button button-white">Отправить</button>
-
-						</form>
-
-					</div>
-
-				</div>
-			</div>
-
-      	</section>
+	      			</div>
+	      			<div class="col-sm-6">
+	      				<div class="ak">
+	      					<h1>Нет сайта?</h1>
+	      					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium quas, fugit nesciunt ratione totam eveniet saepe tempora vel velit iusto earum. Placeat distinctio assumenda est, enim ut nemo pariatur.</p>
+	      					<a href="#" class="button1">Подробнее</a>
+	      					<img src="img/change/no-site.png" alt="">
+	      				</div>
+	      			</div>
+	      		
+	      	
+      </section>
 
       	<section class="s-review inverse section-overlay" style="background-image: url(img/header-bg.jpg);">
       		
@@ -313,8 +296,10 @@
 				</div>
 
 			</div>
-
       	</section>
+
+
+
 
       	<section class="s-partners section-overlay" style="background-image: url(img/callback.jpg);">
       		<div class="container">
@@ -357,8 +342,54 @@
       			</div>
       		</div>
       	</section>
-      	
+
+      		<section class="s-call inverse" style="background-image: url(img/call.jpeg);"> <!--заявочка -->
+      		
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-5 col-md-offset-7 col-sm-6 col-sm-offset-6">
+						
+						<form class="callback">
+							
+							<div class="success"><span>Спасибо за заявку!</span></div>
+
+							<!-- Hidden Required Fields -->
+							<input type="hidden" name="project_name" value="Quokka">
+							<input type="hidden" name="admin_email" value="info@quokka.pro">
+							<input type="hidden" name="form_subject" value="Заявка с сайта Quokka">
+							<!-- END Hidden Required Fields -->
+
+							<div class="callback-logo"><img src="img/logo.svg" alt="Quokka - студия веб разработки"></div>
+							<div class="formhead h2">Оставить заявку</div>
+							<p>Оставьте заявку и мы перезвоним вам в течении 15 минут.</p>
+
+							<input type="text" name="Имя" placeholder="Ваше имя..." required>
+							<input type="text" name="Телефон" placeholder="Ваш телефон..." required>
+							<select name="Услуга">
+								<option value disabled selected>Выбрать услугу...</option>
+								<option>Аудит сайта</option>
+								<option>Разработка логотипа</option>
+								<option>Разработка дизайна</option>
+								<option>Разработка сайта</option>
+								<option>Редизайн сайта</option>
+								<option>Реклама: SMM, SEO</option>
+							</select>
+							<button class="button button-white">Отправить</button>
+
+						</form>
+
+					</div>
+
+				</div>
+			</div>
+
+      	</section>
       </div>
+
+
+
+
 
       <div id="my-footer">
       	
@@ -387,11 +418,11 @@
 							
 							<ul>
 								<li class="active"><a href="#">Главная</a></li>
-								<li><a href="#">Цены</a></li>
-								<li><a href="#">Клиенты</a></li>
+								<li><a href="#">Решение для сайтов</a></li>
+								<li><a href="#">Сайты</a></li>
 								<li><a href="#">Команда</a></li>
-								<li><a href="#">Новости</a></li>
-								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Партфолио</a></li>
+								<li><a href="#">Quokka.news</a></li>
 							</ul>
 
 						</nav>
@@ -399,7 +430,7 @@
 					</div></div>
 					<div class="col-lg-3 col-sm-4 col-xs-12"><div class="footer-column">
 						
-						<p class="footer-addr"><i class="fa fa-location-arrow"></i>г. Москва, ул. Полянка Б, д.7/10 / м.Полянка / м.Третьяковская</p>
+						<p class="footer-addr"><i class="fa fa-location-arrow"></i>г. Серпухов ул.Советская, д.78а</p>
 						<p class="footer-addr"><i class="fa fa-clock-o"></i>Время работы ежедневно, <br> 9:00 - 18:00</p>
 						<p class="footer-addr"><span class="footer-phone"><i class="fa fa-mobile"></i>+7 (495) 003-47-89</span></p>
 
