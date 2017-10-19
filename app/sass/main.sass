@@ -2,6 +2,7 @@
 @import "libs"
 @import "vars"
 @import "effect"
+@import "team"
 
 *::-webkit-input-placeholder
 	color: #666
@@ -474,6 +475,18 @@ html.mm-opened
 		.h2
 			span
 				color: $accent
+	&-worker1.section-overlay
+		&::before
+			background-color: #333
+	&-review3.section-overlay
+		&::before
+			background-color: #fff
+		span
+			color: #333
+		p
+			color: #333
+
+
 
 .section-overlay
 	&::before
@@ -689,10 +702,13 @@ select
 	.worker
 		&-img
 			position: absolute
-			width: 100px
-			height: 100px
+			width: 79%
+			right: 10%
 			img
 				border-radius: 50%
+		h2
+			padding-left: 38%
+			color: #fff	
 	.owl-stage
 		display: flex
 	.owl-item
@@ -887,23 +903,26 @@ select
 			position: absolute
 			color: #fff
 			z-index: 2
-			left: 300px
+			left: 35%
 		p
 			position: absolute
 			color: #fff
 			z-index: 2
-			width: 600px
-			left: 150px
-			top: 100px
+			left: 10%
+			top: 15%
+			right: 5%
 		.button2
 			position: absolute
-			top: 300px
-			left: 300px
+			top: 75%
+			left: 35%
 			font-size: 1.5em
 			text-decoration: none
 			border: 3px solid #fff
 			padding: .7em 1.5em
 			color: #fff
+			&:hover
+				background-color: #fff
+				color: #e77956
 	
 	.ak
 		padding: 0
@@ -922,23 +941,320 @@ select
 			position: absolute
 			color: #333
 			z-index: 2
-			left: 300px
+			left: 35%
 		p
 			position: absolute
 			color: #333
 			z-index: 2
-			width: 600px
-			left: 150px
-			top: 100px
+			left: 10%
+			top: 15%
+			right: 5%
 		.button1
 			position: absolute
-			top: 300px
-			left: 300px
+			top: 75%
+			left: 35%
 			font-size: 1.5em
 			text-decoration: none
 			border: 3px solid #333
 			padding: .7em 1.5em
 			color: #333
+			&:hover
+				background-color: #333
+				color: #fff
+
+/*секции страницы нету сайта*/
+.ckok
+	height: 500px
+	position: relative
+	z-index: 2
+	.col-sm-6
+		padding: 0
+		margin: 0
+	.hav1
+		padding: 0
+		margin: 0
+		height: 500px
+		background-color: #59b1b2
+		img
+			width: 70%
+			position: absolute
+			top: 50%
+			left: 35%
+		h1
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+		p
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 15%
+			
+
+		.button2
+			position: absolute
+			top: 40%
+			left: 10%
+			font-size: 1.5em
+			text-decoration: none
+			border: 3px solid #fff
+			padding: .7em 1.5em
+			color: #fff
+			&:hover
+				background-color: #fff
+				color: #59b1b2
+	
+	.hav2
+		padding: 0
+		margin: 0
+		height: 500px
+		background-color: #4156f4
+		img
+			width: 50%
+			position: absolute
+			top: 40%
+			left: 45%
+		h1
+			position: absolute
+			color: #FFF
+			z-index: 2
+			left: 10%
+		p
+			position: absolute
+			color: #FFF
+			z-index: 2
+			left: 10%
+			top: 10%
+			
+		.button1
+			position: absolute
+			top: 40%
+			left: 10%
+			font-size: 1.5em
+			text-decoration: none
+			border: 3px solid #FFF
+			padding: .7em 1.5em
+			color: #fff
+			&:hover
+				background-color: #FFF
+				color: #4156f4
+	.hav3
+		padding: 0
+		margin: 0
+		height: 500px
+		background-color: #bc28d6
+		img
+			width: 50%
+			position: absolute
+			top: 40%
+			left: 45%
+		h1
+			position: absolute
+			color: #FFF
+			z-index: 2
+			left: 10%
+		p
+			position: absolute
+			color: #FFF
+			z-index: 2
+			left: 10%
+			top: 10%
+		.button3
+			z-index: 2
+			position: absolute
+			top: 40%
+			left: 10%
+			font-size: 1.5em
+			text-decoration: none
+			border: 3px solid #FFF
+			padding: .7em 1.5em
+			color: #fff
+			&:hover
+				background-color: #FFF
+				color: #bc28d6
+	.hav4
+		padding: 0
+		margin: 0
+		height: 500px
+		background-color: #e5505a
+		img
+			width: 50%
+			position: absolute
+			top: 40%
+			left: 45%
+		h1
+			position: absolute
+			color: #FFF
+			z-index: 2
+			left: 10%
+		p
+			position: absolute
+			color: #FFF
+			z-index: 2
+			left: 10%
+			top: 10%
+		.button4
+			position: absolute
+			top: 40%
+			left: 10%
+			font-size: 1.5em
+			text-decoration: none
+			border: 3px solid #FFF
+			padding: .7em 1.5em
+			color: #fff
+			&:hover
+				background-color: #FFF
+				color: #e5505a
+
+/*секции страницы есть сайт*/
+.yes
+	height: 500px
+	position: relative
+	z-index: 2
+	.col-sm-6
+		padding: 0
+		margin: 0
+	.ye1
+		padding: 0
+		margin: 0
+		height: 500px
+		background-color: #59e057
+		img
+			width: 30%
+			position: absolute
+			top: 50%
+			left: 50%
+		h1
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+		p
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 10%
+			
+
+		.button5
+			position: absolute
+			top: 40%
+			left: 10%
+			font-size: 1.5em
+			text-decoration: none
+			border: 3px solid #fff
+			padding: .7em 1.5em
+			color: #fff
+			&:hover
+				background-color: #fff
+				color: #59e057
+	
+	.ye2
+		padding: 0
+		margin: 0
+		height: 500px
+		background-color: #7856e0
+		img
+			width: 50%
+			position: absolute
+			top: 55%
+			left: 45%
+		h1
+			position: absolute
+			color: #FFF
+			z-index: 2
+			left: 10%
+		p
+			position: absolute
+			color: #FFF
+			z-index: 2
+			left: 10%
+			top: 10%
+			
+		.button6
+			position: absolute
+			top: 40%
+			left: 10%
+			font-size: 1.5em
+			text-decoration: none
+			border: 3px solid #FFF
+			padding: .7em 1.5em
+			color: #fff
+			&:hover
+				background-color: #FFF
+				color: #7856e0
+	.ye3
+		padding: 0
+		margin: 0
+		height: 500px
+		background-color: #34b9c8
+		img
+			width: 50%
+			position: absolute
+			top: 40%
+			left: 45%
+		h1
+			position: absolute
+			color: #FFF
+			z-index: 2
+			left: 10%
+		p
+			position: absolute
+			color: #FFF
+			z-index: 2
+			left: 10%
+			top: 10%
+		.button7
+			z-index: 2
+			position: absolute
+			top: 40%
+			left: 10%
+			font-size: 1.5em
+			text-decoration: none
+			border: 3px solid #FFF
+			padding: .7em 1.5em
+			color: #fff
+			&:hover
+				background-color: #FFF
+				color: #34b9c8
+	.ye4
+		padding: 0
+		margin: 0
+		height: 500px
+		background-color: #ed823b
+		img
+			width: 50%
+			position: absolute
+			top: 40%
+			left: 45%
+		h1
+			position: absolute
+			color: #FFF
+			z-index: 2
+			left: 10%
+		p
+			position: absolute
+			color: #FFF
+			z-index: 2
+			left: 10%
+			top: 10%
+		.button8
+			position: absolute
+			top: 40%
+			left: 10%
+			font-size: 1.5em
+			text-decoration: none
+			border: 3px solid #FFF
+			padding: .7em 1.5em
+			color: #fff
+			&:hover
+				background-color: #FFF
+				color: #ed823b
+
+/*конец*/
 
 .log
 	img
@@ -982,5 +1298,275 @@ select
 			&:last-child
 				margin-right: inherit
 				margin-left: 10px
+.kat1
+	background-color: #fff
+	height: 500px
+	width: 500px
+
+/*секции страницы лундинг */
+.text-section
+	height: 500px
+	position: relative
+	z-index: 2
+	.col-sm-8
+		padding: 0
+		margin: 0
+	.col-sm-4
+		padding: 0
+		margin: 0
+	.txt1
+		height: 500px
+		background-color: #7856e0
+		h1
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 20%
+		p
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 30%
+			font-size: 1.5em
+	
+	.txt2
+		height: 500px
+		background-color: #7856e0
+		img
+			width: 80%
+			position: absolute
+			top: 5%
+			right: 15%
+			&:hover
+				transform: skew(-20deg, 20deg)
+
+	.txt3
+		padding: 0
+		margin: 0
+		height: 500px
+		background-color: #ed823b
+		img
+			width: 80%
+			position: absolute
+			top: 20%
+			left: 15%
+	.txt4
+		padding: 0
+		margin: 0
+		height: 500px
+		background-color: #ed823b
+		h1
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 20%
+		p
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 30%
+			font-size: 1.5em
+	.txt5
+		height: 500px
+		background-color: #5f7f91
+		h1
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 20%
+		p
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 30%
+			font-size: 1.5em
+	
+	.txt6
+		height: 500px
+		background-color: #5f7f91
+		img
+			width: 60%
+			position: absolute
+			top: 25%
+			right: 15%
+			&:hover
+				transform: skew(-20deg, 20deg)
+
+
+	.cek1
+		height: 500px
+		background-color: #5bb2c3
+		h1
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 20%
+		p
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 30%
+			font-size: 1.5em
+	
+	.cek2
+		height: 500px
+		background-color: #5bb2c3
+		img
+			width: 100%
+			position: absolute
+			top: 15%
+			right: 15%
+			&:hover
+				transform: skew(-20deg, 20deg)
+
+	.cek3
+		padding: 0
+		margin: 0
+		height: 500px
+		background-color: #01a78b
+		img
+			width: 80%
+			position: absolute
+			top: 10%
+			left: 15%
+	.cek4
+		padding: 0
+		margin: 0
+		height: 500px
+		background-color: #01a78b
+		h1
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 20%
+		p
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 30%
+			font-size: 1.5em
+	.cek5
+		height: 500px
+		background-color: #7856e0
+		h1
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 20%
+		p
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 30%
+			font-size: 1.5em
+	
+	.cek6
+		height: 500px
+		background-color: #7856e0
+		img
+			width: 80%
+			position: absolute
+			top: 25%
+			right: 15%
+			&:hover
+				transform: skew(-20deg, 20deg)
+	.sl1
+		height: 500px
+		background-color: #03a9f5
+		h1
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 20%
+		p
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 30%
+			font-size: 1.5em
+	
+	.sl2
+		height: 500px
+		background-color: #03a9f5
+		img
+			width: 50%
+			position: absolute
+			top: 15%
+			right: 15%
+			&:hover
+				transform: skew(-20deg, 20deg)
+
+	.sl3
+		padding: 0
+		margin: 0
+		height: 500px
+		background-color: #3cad51
+		img
+			width: 80%
+			position: absolute
+			top: 10%
+			left: 15%
+	.sl4
+		padding: 0
+		margin: 0
+		height: 500px
+		background-color: #3cad51
+		h1
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 20%
+		p
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 30%
+			font-size: 1.5em
+	.sl5
+		height: 500px
+		background-color: #76c2af
+		h1
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 20%
+		p
+			position: absolute
+			color: #fff
+			z-index: 2
+			left: 10%
+			top: 30%
+			font-size: 1.5em
+	
+	.sl6
+		height: 500px
+		background-color: #76c2af
+		img
+			width: 80%
+			position: absolute
+			top: 5%
+			right: 15%
+			&:hover
+				transform: skew(-20deg, 20deg)
+.sub-cent
+	width: 350px
+
 
 @import "media" // Всегда в конце
