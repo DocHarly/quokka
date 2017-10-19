@@ -365,6 +365,28 @@ html.mm-opened
 .particles-js-canvas-el
 	position: absolute
 
+.buy
+	input, textarea, select,
+	.selectize-control .selectize-input,
+	.selectize-control.single .selectize-input.input-active
+		color: #fff
+		background-color: #4e4e4e
+		opacity: .5
+		width: 35%
+		margin: 14px
+
+		&::-webkit-input-placeholder
+			color: #fff
+			opacity: 1
+		&::-moz-placeholder
+			color: #fff
+			opacity: 1
+		&::-ms-input-placeholder
+			color: #fff
+
+		option
+			color: #333
+
 $colors: $blue, $red, $accent
 @for $i from 1 through length($colors)
 	.carousel-work .owl-item:nth-child(#{length($colors)}n+#{$i})
