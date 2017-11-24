@@ -794,6 +794,28 @@ select
 			&.owl-next
 				right: -50px
 
+.team
+	.owl-nav
+		position: absolute
+		top: 0
+		width: 100%
+		z-index: 2
+		> div
+			position: absolute
+			top: 50px
+			color: #999
+			font-size: 40px
+			transition: opasity .5s ease
+			padding: 0 10px
+			&:hover
+				opacity: .6
+			&.owl-prev
+				left: -60px
+				top: 150px
+			&.owl-next
+				right: 0
+				top: 150px
+
 .workers
 	.worker
 		&-img

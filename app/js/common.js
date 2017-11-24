@@ -93,6 +93,28 @@ $(function() {
 		}
 	});
 
+	$('.team').owlCarousel({
+		loop: true,
+		smartSpeed: 700,
+		dots: false,
+		navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+		nav: true,
+		responsiveClass: true,
+		autoplay:true,
+		autoplayTimeout:5000,
+		responsive: {
+			0: {
+				items: 1
+			},
+			480: {
+				items: 2
+			},
+			800: {
+				items: 3
+			},
+		}
+	});
+
 	$('.partnerss').owlCarousel({
 		loop: true,
 		smartSpeed: 700,
